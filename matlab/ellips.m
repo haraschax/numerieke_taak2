@@ -6,7 +6,7 @@ function [a,b,c,d,e,f] = ellips(x,y)
 
 columnOfOnes = ones(size(x,1),1);
 
-A = [2*x.*y, y.*y - x.*x, x, y, columnOfOnes]
+A = [2*x.*y, y.*y - x.*x, x, y, columnOfOnes];
 b = -x.*x;
 x = A\b;
 b = x(1);
