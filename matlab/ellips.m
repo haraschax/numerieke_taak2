@@ -6,9 +6,10 @@ function [a,b,c,d,e,f] = ellips(x,y)
 
 columnOfOnes = ones(size(x,1),1);
 
-A = [2*x.*y, y.*y - x.*x, x, y, columnOfOnes]
+A = [2*x.*y, y.*y - x.*x, x, y, columnOfOnes]; %A * coef = -x^2  % coef is vector met coefficienten (b,c,d,e,f)
 b = -x.*x;
 x = A\b;
+
 b = x(1);
 c = x(2);
 d = x(3);
