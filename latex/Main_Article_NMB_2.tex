@@ -1,0 +1,109 @@
+\documentclass[]{article}
+\usepackage[]{algorithm2e}
+\usepackage{amsmath}
+\usepackage{framed}
+\usepackage{tabularx}
+\usepackage[dutch]{babel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+%opening
+\title{Practicum NMB: Benaderende functies}
+\author{Matthijs van Keirsblick en Harald Sch\"{a}fer}
+\date{donderdag 14 mei 2015}
+
+\newcommand{\opgave}[1]{\pagebreak\section*{Opgave #1}}
+
+
+\begin{document}
+
+\maketitle
+\opgave{1}
+\section*{Ellips}
+Voor het berekenen van de coefficienten ellips lossen we het gegeven stelsel op naar b,c,d,e en f.
+\\
+
+ \begin{center}
+ $
+ \begin{bmatrix}
+  2x_{1}y_{1} & y_{1}^2-x_{1}^2 & x_{1} & y_{1} & 1 \\
+   2x_{1}y_{1} & y_{1}^2-x_{1}^2 & x_{1} & y_{1} & 1 \\
+  \vdots  & \vdots  & \vdots & \vdots & \vdots \\
+   2x_{1}y_{1} & y_{1}^2-x_{1}^2 & x_{1} & y_{1} & 1 \\
+ \end{bmatrix}
+ .
+  \begin{bmatrix}
+  b\\
+  c\\
+  d\\
+  e\\
+  f\\
+  \end{bmatrix}
+  =
+   \begin{bmatrix}
+    -x^2_1\\
+   -x^2_2\\
+    \vdots\\
+   -x^2_N\\
+    \end{bmatrix}
+    $
+     \end{center}
+
+\noindent Hieruit kunnen we dan ook gemakkelijk a berekenen met de normalisatievoorwaarde $a = 1-c$.
+\\
+
+
+
+
+\section*{Cirkel}
+\noindent Voor het berekenen van de coefficienten van een benaderende cirkel beginnen we weer van de vergelijking:
+
+ \begin{center}
+ $ax^2 +2bxy + cy^2 + dx +  ey + f = 0$
+ \end{center}
+Daarin vullen we de normalisatievoorwaarde in en de voorwaarde van een cirkel, deze zijn:
+
+ \begin{center}
+ $ a = 1$	   \quad \quad \quad      	$b = 0$    \quad \quad \quad   	$a = c$
+ \end{center}
+ 
+ \noindent Dit geeft ons de vergelijking:
+ 
+ \begin{center}
+  $x^2 + y^2 + dx +  ey + f = 0$
+  \end{center}
+  
+  \noindent Het stelsel om op te lossen wordt dan:
+   
+   \begin{center}
+   $
+   \begin{bmatrix}
+    x_{1} & y_{1} & 1 \\
+    x_{1} & y_{1} & 1 \\
+   \vdots & \vdots & \vdots \\
+    x_{1} & y_{1} & 1 \\
+   \end{bmatrix}
+   .
+    \begin{bmatrix}
+    d\\
+    e\\
+    f\\
+    \end{bmatrix}
+    =
+     \begin{bmatrix}
+      -y^2_1-x^2_1\\
+      -y^2_2-x^2_2\\
+      \vdots\\
+      -y^2_N-x^2_N\\
+      \end{bmatrix}
+      $
+       \end{center}
+ 
+ 
+ 
+ \section*{Tekenkegelsnede}
+ 
+ De vergelijking van de kegelsnede in het aangepast assenstelsel is 
+ 
+
+\end{document}
