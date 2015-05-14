@@ -2,12 +2,11 @@ function y = naturalspline(x,f,t)
 %naturalspline: returns the evalutions in requested points using natural
 %spline approximation
 n = length(x) -1;
-
-triDiagonalSystem = zeros(n-1,n-1);
-
 deltaX = @(k) x(k+1) -x(k);
 deltaF = @(k) f(k+1) -f(k);
 
+% create the tridiagonal system
+triDiagonalSystem = zeros(n-1,n-1);
 for i=1:n-1
     triDiagonalSystem(i,i) = 2*(deltaX(i)+ deltaX(i+1));
     if (i ~= 1)
@@ -18,16 +17,20 @@ for i=1:n-1
     end
 end
 
+% create the right Vector             
 rightVector = zeros(n-1,1);
 for i=1:n-1
     rightVector(i,1) = 6*(deltaF(i+1)/deltaX(i+1) - deltaF(i)/deltaX(i));
 end
 
-s = [0 rightVector\triDiagonalSystem 0]; s = s';
+% solve the system  
+solut = triDiagonalSystem\rightVector;
+s = [0; solut; 0];
 
 c1 = f(2:n+1,1)./(deltaX(1:n)) - deltaX(1:n).*s(2:n+1,1)./6;
 c2 = f(1:n,1)./(deltaX(1:n)) - (deltaX(1:n)).*s(1:n,1)./6;
 
+% the spline is made up out of functions p_i
 p = @(i2,h) ((h-x(i2)).^3.*s(i2+1)-(h-x(i2+1)).^3.*s(i2))./(6.*deltaX(i2)) + c1(i2).*(h-x(i2)) + c2(i2).*(x(i2+1)-h);
 
 y = zeros(length(t),1);

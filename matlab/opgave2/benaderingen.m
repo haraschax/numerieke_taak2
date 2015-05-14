@@ -1,17 +1,21 @@
 clc;clear;close all
 
-%% TODO: 
-% vraag 3: foutencurves + kijken of het punt k* periode verder weg gelegen is (periodiciteit)
-% vraag 4 en 5: parameterkrommes         
+%% TODO: vraag 3: foutencurves       
+%% General variables: evaluation points, graphs stuff etc...
+
+% voor de splinebenadering
+delta = 0.2;%distance between successive spline-node points is 0.5
+x=  linspace(-pi,pi,2*pi/delta)'; % voor meer dan 1 periode gebruik je best periospline
+
+%voor alle benaderingen
+start = -10; ending = 10;
+% start = -2; ending = 2;
+evaldelta = 0.01;            % afstand tussen opeenvolgende evaluatiepunten
+evals = linspace(start,ending,(ending-start)/evaldelta); evals = evals';
+graph_offset = 0.01;         % om grafieken van elkaar te kunnen onderscheiden
+polynomial_degree = 10;      % graad van de interpolerende veelterm
 
 %% 1) GEWONE SPLINES
-delta = 0.05;
-x = -pi:delta:pi; x = x'; 
-% evals = -2:0.01:2; evals = evals';
-evals = -8:0.01:8; evals = evals'; % meerdere periodes getekend
-w = ones(size(evals,1),1);
-
-
 % Benader cos(x) op [-2,2]
 
 % splines
@@ -20,15 +24,21 @@ f = @(x) cos(x);
 y = naturalspline(x,f(x),evals);
 
 % veelterminterpolatie
-c = kkb2(evals,f(evals),w, 10);
+interPoints = linspace(-2,2,4/delta)'; w = ones(size(interPoints,1),1); %de veelterm wordt enkel geïnterpoleerd op het interval, niet erbuiten. Dat zou ervoor zorgen dat hij nog veel slechter is
+c = kkb1(interPoints,f(interPoints),w, polynomial_degree);
 
-plot(evals,y+0.1);
-hold on; plot(evals,f(evals));  %exact function
-hold on; plot(evals,polyval(c(end:-1:1),evals)-0.1);
-%dit is gezichtsbedrog :), het verschil is niet groter in het midden
+plot(evals,y+graph_offset);
+hold on; plot(evals,f(evals));  % exact function
+hold on; plot(evals,polyval(c(end:-1:1),evals)-graph_offset);
+legend('spline','exact','polynomial')
+f(evals)
+axis([start ending min(f(evals))-0.1-graph_offset max(f(evals))+0.1+graph_offset])
+% dit is gezichtsbedrog :), het verschil is niét groter in het midden
 
 
 % Benader 1/(1+6*x^2) op [-2,2]
+start = -3; ending = 3;
+evals = linspace(start,ending,(ending-start)/evaldelta); evals = evals';
 figure;
 f = @(x) 1./(1+6*x.^2); 
 
@@ -36,18 +46,20 @@ f = @(x) 1./(1+6*x.^2);
 y = naturalspline(x,f(x),evals);
 
 %veelterminterpolatie
-c = kkb2(evals,f(evals),w, 10);
+c = kkb1(interPoints,f(interPoints),w, polynomial_degree);
 
-plot(evals,y+0.1);
-hold on; plot(evals,f(evals));  %exact function
-hold on; plot(evals,polyval(c(end:-1:1),evals)-0.1);
+plot(evals,y+graph_offset);
+hold on; plot(evals,f(evals));  % exact function
+hold on; plot(evals,polyval(c(end:-1:1),evals)-graph_offset);
+legend('spline','exact','polynomial')
+axis([start ending min(f(evals))-0.1-graph_offset max(f(evals))+0.1+graph_offset])
+
 
 
 %% 2) PERIODIEKE SPLINES
-delta = 0.05;
-x = 0:delta:2*pi; x = x'; 
-evals = 0:0.01:8*pi; evals = evals'; %getekend over 4 periodes
-w = ones(size(evals,1),1);
+x=  linspace(0,2*pi,2*pi/delta)';
+start = 0; ending= 8*pi;            % teken 4 periodes
+evals = linspace(start,ending,(ending-start)/evaldelta); evals = evals'; 
 
 figure;
 f = @(x) sin(x) + cos(4*x)/2;
@@ -56,20 +68,16 @@ f = @(x) sin(x) + cos(4*x)/2;
 y = periospline(x,f(x),evals);
 
 %veelterminterpolatie
-c = kkb2(evals,f(evals),w, 10);
+interPoints = linspace(0,4,4/delta)'; w = ones(size(interPoints,1),1);
+c = kkb1(interPoints,f(interPoints),w, polynomial_degree);
 
-plot(evals,y+0.1);
+plot(evals,y+graph_offset);
 hold on; plot(evals,f(evals));  %exact function
-hold on; plot(evals,polyval(c(end:-1:1),evals)-0.1);
+hold on; plot(evals,polyval(c(end:-1:1),evals)-graph_offset);
+legend('spline','exact','polynomial')
+axis([start ending min(f(evals))-0.1-graph_offset max(f(evals))+0.1+graph_offset])
 
-% 3) KROMMES BENADEREN
-% parametrisatie
-% t = linspace(0,1,N)';
-% 
-% c1 = kkb2(t,x',w,n);
-% c2 = kkb2(t,y',w,n);
-% 
-% figure;
-% t = linspace(0,1,10*N);
-% plot(polyval(c1(end:-1:1),t),polyval(c2(end:-1:1),t));
+%% 3) KROMMES BENADEREN
+
+% zie kromme.m
 
