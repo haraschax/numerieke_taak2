@@ -104,6 +104,46 @@ Daarin vullen we de normalisatievoorwaarde in en de voorwaarde van een cirkel, d
  \section*{Tekenkegelsnede}
  
  De vergelijking van de kegelsnede in het aangepast assenstelsel is 
- 
+\begin{center}
+ $\lambda_1 \bar{x}^2 + \lambda_2 \bar{y}^2 + \bar{c} = 0$
+\end{center} 
+Om een ellips(of cirkel) te zijn moet $\lambda_1 > 0$, $\lambda_2 > 0$ en $\bar{c} \ge 0$. $\lambda_1 en \lambda_2$ zijn de eigenwaarden van de matrix:
+
+\begin{center}
+$		A
+		=
+     \begin{bmatrix}
+      a & b \\
+      b & c\\
+      \end{bmatrix}
+      $
+      \end{center}
+      
+\noindent $\bar{c}$ vinden we uit de volgende vergelijkingen.
+
+
+\begin{center}
+      $		B
+		=
+     \begin{bmatrix}
+      d \\
+      f
+      \end{bmatrix}
+      $
+      \quad \quad \quad
+      $2T^tA = -B^t$
+      \quad \quad \quad
+      $\bar{c} = T^tAT + B^tT +f$
+      \end{center}
+
+\noindent We hebben nu alle nodige vergelijkingen om na te kijken of de coefficienten a,b,c,d,e en f voldoen aan de voorwaarden van een ellips(of cirkel). We hebben onze functie getest door de volgende testen uit te voeren.
+
+
+\begin{itemize}
+  \item tekenkegelsnede() uitgevoerd op de coefficienten berekend door ellips() toegepast op punten liggend op een willekeurige ellips, het resultaat was zoals verwacht 1
+  \item tekenkegelsnede() uitgevoerd op de coefficienten berekend door cirkel() toegepast op punten liggend op een willekeurige cirkel, het resultaat was zoals verwacht 1
+  \item tekenkegelsnede() uitgevoerd op de coefficienten berekend door ellips() toegepast op punten liggend op een rechte, het resultaat was zoals verwacht 0
+\end{itemize}
 
 \end{document}
+
