@@ -1,8 +1,12 @@
 function kromme
 clc;clear;close all
 
-[x,y]= click; x=x';y=y';%x = [x x(1)]'; y = [y y(1)]'; %gesloten curve: x_n = x_0 en y_n = y_0
+[x,y]= click;
+x = x/norm(x);
+y = y/norm(y);
+x=x';y=y';y=-y+1;%x = [x x(1)]'; y = [y y(1)]'; %gesloten curve: x_n = x_0 en y_n = y_0
 N = length(x)
+
 % use as t the length of the broken line that connects successive points up
 % to point i
 t = zeros(N, 1);
@@ -24,7 +28,6 @@ evals = linspace(0,1,10*N);
 % axis([0 1 0 1])
 
 % figure;
-%% I have no idea why it is not smooth as a spline should be. The splines seem to interpolate linearily instead of cubically
 c1 = naturalspline(t,x,evals);
 c2 = naturalspline(t,y,evals);
 
@@ -34,9 +37,10 @@ c2 = naturalspline(t,y,evals);
 c1_mat = spline(t',x',evals');
 c2_mat = spline(t',y',evals');
 
-plot(c1,c2,c1_mat',c2_mat',x,y);
-legend('mine','matlab','chosen points')
-axis([0 1 0 1]);
+% plot(c1,c2,c1_mat',c2_mat',x,y);
+figure;
+plot(c1,c2);
+% axis([0 1 0 1]);
 
       
       

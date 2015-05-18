@@ -1,11 +1,13 @@
 function [x,y] = click
 
+    img = imread('elsa.jpg'); 
+    image(img)
+    hold on
 	% initialiseer figuur
 
-	figure;
-	axis([0 1 0 1]);
-	axis manual
-	title('Click left to draw polyline, click right to terminate')
+% 	axis([0 1 0 1]);
+% 	axis manual
+% 	title('Click left to draw polyline, click right to terminate')
 	hold on;
 
 	% herhaal tot andere dan linkermuisknop ingedrukt

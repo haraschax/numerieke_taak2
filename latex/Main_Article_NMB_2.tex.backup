@@ -6,7 +6,6 @@
 \usepackage[dutch]{babel}
 \usepackage{graphicx}
 \usepackage{epstopdf}
-\usepackage{float}
 
 %opening
 \title{Practicum NMB: Benaderende functies}
@@ -252,7 +251,7 @@ Veeltermen van hogere graad introduceren echter zeer sterke oscillaties.
 
 Beide benadermethodes convergeren naar de functie, maar de splinebenadering convergeert veel sneller. in grafiek \ref{opgave3_max_error} wordt de evolutie van de fout in functie van het aantal interpolatiepunten weergegeven op een log- schaal.
 De veeltermbenadering gebruikt een veelterm van graad 10.
-\begin{figure}[H]
+\begin{figure}[h]
 \begin{center}
 \includegraphics[width=1\textwidth]{opgave3_max_error.eps}
   \label{opgave3_max_error.eps}
@@ -261,32 +260,22 @@ De veeltermbenadering gebruikt een veelterm van graad 10.
 \end{figure}
 
 \section*{Benadering van een kromme}
-Met behulp van parametrisaties kunnen we willekeurige krommen benaderen met kubische splinefuncties.
 \subsection*{Griekse letters}
-\begin{figure}[H] 
+\begin{figure}[h] 
 \centering
 \begin{minipage}{0.5\textwidth}
 \centering % first figure itself
  \includegraphics[width=1\textwidth]{omega.eps}
    \label{omega.eps}
-\caption{omega}
+\caption{20 interpolatiepunten}
 \end{minipage}\hfill
 \begin{minipage}{0.5\textwidth}
 \centering
 % second figure itself
 \includegraphics[width=1\textwidth]{eps.eps}
   \label{epsilon.eps}
-\caption{epsilon}
+\caption{fout bij 20 interpolatiepunten}
 \end{minipage}
-\end{figure}
-
-\subsection*{Disney}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1\textwidth]{elsapoging3.eps}
-  \label{elsapoging3.eps}
-  \caption{Elsa}
-\end{center}
 \end{figure}
 
 \end{document}
