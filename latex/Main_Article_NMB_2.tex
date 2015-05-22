@@ -167,7 +167,7 @@ Voor de theoretische achtergrond en afleidingen, zie sectie 5.2.3 van de cursus.
 
 \section*{Benadering $cos(x)$}
 Kubische splineinterpolaties zijn pas mogelijk pas vanaf 4 interpolatiepunten. Voor 4 interpolatiepunten is de veeltermbenadering door oplossen van het Kleinste Kwadratenprobleem nog beter, maar vanaf 5 punten convergeert de splineinterpolatie bijna direct naar de exacte functie.
-In de grafieken \ref{opgave2_N4.eps} en \ref{opgave2_N5.eps} worden deze benaderingen weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 2.Hogere graads veeltermen geven een betere benadering van de functie op het interval, op voorwaarde dat er genoeg punten genomen worden.
+In de figuren 3 en 4 worden deze benaderingen weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 2. Hogere graads veeltermen geven een betere benadering van de functie op het interval, op voorwaarde dat er genoeg punten genomen worden.
 Veeltermen van te hoge graad introduceert wel oscillaties.
 \begin{figure}[h]
 \centering
@@ -182,15 +182,16 @@ Veeltermen van te hoge graad introduceert wel oscillaties.
 % second figure itself
 \includegraphics[width=1\textwidth]{opgave2_N5.eps}
  \label{opgave2_N5.eps}
-\caption{4 interpolatiepunten}
+\caption{5 interpolatiepunten}
 \end{minipage}
 \end{figure}
 
+\pagebreak
+
 \section*{Benadering $1/(1+6*x^2)$}
-Kubische splineinterpolaties zijn pas mogelijk pas vanaf 4 interpolatiepunten. Voor beide benadermethodes bekomen we geen goede benaderingen voor N kleiner dan 10. In alle gevallen is de spline- benadering hier beter dan de benadering met veeltermen.
-In de grafieken \ref{opgave2b_N10} en \ref{opgave2b_N15.eps} worden deze benaderingen weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 10. Hogere graads veeltermen geven een betere benadering van de functie op het interval, op voorwaarde dat er genoeg punten genomen worden.
-Veeltermen van hogere graad introduceren echter sterke oscillaties.
-\begin{figure}[h]
+Voor beide benadermethodes bekomen we geen goede benaderingen voor N kleiner dan 10. In alle gevallen is de spline- benadering hier beter dan de benadering met veeltermen.
+In de grafieken 5 en 6 worden deze benaderingen weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 10. 
+\begin{figure}[H]
 \centering
 \begin{minipage}{0.5\textwidth}
 \centering % first figure itself
@@ -209,10 +210,9 @@ Veeltermen van hogere graad introduceren echter sterke oscillaties.
 
 \section*{Benadering $sin(x) + cos(4*x)/2$}
 \subsection*{Benadering met 10 interpolatiepunten}
-Voor beide benadermethodes bekomen we geen goede benaderingen voor N kleiner dan 10. In alle gevallen is de spline- benadering hier beter dan de benadering met veeltermen.
-In de grafieken \ref{opgave3_N10.eps} en \ref{opgave3_N10_error.eps} worden deze benaderingen weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 10. Hogere graads veeltermen geven een betere benadering van de functie op het interval, op voorwaarde dat er genoeg punten genomen worden.
-Veeltermen van hogere graad introduceren echter zeer sterke oscillaties.
-\begin{figure}[h]
+Ook hier is bij beide benadermethodes geen goede benadering gevonden voor N kleiner dan 10. In alle gevallen is de spline- benadering hier ook weer beter dan de benadering met veeltermen.
+In de figuren 7 en 8 worden deze benaderingen en de fout erop weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 10. 
+\begin{figure}[H]
 \centering
 \begin{minipage}{0.5\textwidth}
 \centering % first figure itself
@@ -230,36 +230,36 @@ Veeltermen van hogere graad introduceren echter zeer sterke oscillaties.
 \end{figure}
 
 \subsection*{Benadering met 20 interpolatiepunten}
-Voor beide benadermethodes bekomen we geen goede benaderingen voor N kleiner dan 10. In alle gevallen is de spline- benadering hier beter dan de benadering met veeltermen.
-In de grafieken \ref{opgave3_N20.eps} en \ref{opgave3_N20_error.eps} worden deze benaderingen weergegeven. De veelterminterpolatie op de figuren gebeurt met een veelterm van graad 10. Hogere graads veeltermen geven een betere benadering van de functie op het interval, op voorwaarde dat er genoeg punten genomen worden.
-Veeltermen van hogere graad introduceren echter zeer sterke oscillaties.
-\begin{figure}[h] 
+
+In de figuren 9 en 10 worden zien we de benaderingen en fout voor 20 interpolatiepunten.
+\begin{figure}[H] 
 \centering
 \begin{minipage}{0.5\textwidth}
 \centering % first figure itself
  \includegraphics[width=1\textwidth]{opgave3_N20.eps}
-   \label{opgave3_N20.eps}
+   \label{fig:gull}
 \caption{20 interpolatiepunten}
 \end{minipage}\hfill
 \begin{minipage}{0.5\textwidth}
 \centering
 % second figure itself
 \includegraphics[width=1\textwidth]{opgave3_N20_error.eps}
-  \label{opgave3_N20_error.eps}
+  \label{fig:opgave3N20_error}
 \caption{fout bij 20 interpolatiepunten}
 \end{minipage}
 \end{figure}
 
-Beide benadermethodes convergeren naar de functie, maar de splinebenadering convergeert veel sneller. in grafiek \ref{opgave3_max_error} wordt de evolutie van de fout in functie van het aantal interpolatiepunten weergegeven op een log- schaal.
+\noindent Beide benadermethodes convergeren naar de functie, maar de splinebenadering convergeert veel sneller. In figuur 11 wordt de evolutie van de fout in functie van het aantal interpolatiepunten weergegeven op een log- schaal.
 De veeltermbenadering gebruikt een veelterm van graad 10.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=1\textwidth]{opgave3_max_error.eps}
-  \label{opgave3_max_error.eps}
+\includegraphics[width=0.9\textwidth]{opgave3_max_error.eps}
+  \label{opgave3_max_error}
   \caption{De maximale fout in functie van het aantal interpolatiepunten}
 \end{center}
 \end{figure}
 
+\pagebreak
 \section*{Benadering van een kromme}
 Met behulp van parametrisaties kunnen we willekeurige krommen benaderen met kubische splinefuncties.
 \subsection*{Griekse letters}
@@ -268,14 +268,14 @@ Met behulp van parametrisaties kunnen we willekeurige krommen benaderen met kubi
 \begin{minipage}{0.5\textwidth}
 \centering % first figure itself
  \includegraphics[width=1\textwidth]{omega.eps}
-   \label{omega.eps}
+   \label{omega}
 \caption{omega}
 \end{minipage}\hfill
 \begin{minipage}{0.5\textwidth}
 \centering
 % second figure itself
 \includegraphics[width=1\textwidth]{eps.eps}
-  \label{epsilon.eps}
+  \label{epsilon}
 \caption{epsilon}
 \end{minipage}
 \end{figure}
@@ -284,7 +284,7 @@ Met behulp van parametrisaties kunnen we willekeurige krommen benaderen met kubi
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\textwidth]{elsapoging3.eps}
-  \label{elsapoging3.eps}
+  \label{elsapoging3}
   \caption{Elsa}
 \end{center}
 \end{figure}

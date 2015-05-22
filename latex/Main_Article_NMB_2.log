@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.7)  18 MAY 2015 20:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.6)  22 MAY 2015 23:39
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **Main_Article_NMB_2.tex
-(./Main_Article_NMB_2.tex
+
+("C:\Users\User 67\Documents\GitHub\numerieke_taak2\latex\Main_Article_NMB_2.te
+x"
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 42 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,18 +32,18 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count87
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
 Package `algorithm2e' Release 5.0 -- january 06 2013 --
@@ -76,24 +85,24 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count90
 \algocf@algoframe=\box32
 \algocf@algobox=\box33
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen109
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen110
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count91
@@ -134,7 +143,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip62
 \fb@frw=\dimen118
@@ -142,10 +151,10 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen120
 \FrameSep=\dimen121
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
@@ -161,48 +170,50 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count103
 \TX@ftn=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-dutch/dutch.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\dutch.ldf"
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count104
 \U@D=\dimen129
 )
 Package babel Info: Making " an active character on input line 132.
-
-*************************************
-* Local config file dutch.cfg used
-*
-(/usr/local/share/texmf/tex/cs/kulbrief/dutch.cfg)))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
@@ -210,28 +221,28 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -240,11 +251,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -257,12 +268,8 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
 \float@exts=\toks22
@@ -270,9 +277,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box37
 )
-(./Main_Article_NMB_2.aux)
-\openout1 = `Main_Article_NMB_2.aux'.
-
+("C:\Users\User 67\Documents\GitHub\numerieke_taak2\latex\Main_Article_NMB_2.au
+x")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
@@ -285,8 +291,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen132
@@ -301,40 +306,41 @@ LaTeX Font Info:    ... okay on input line 19.
 \everyMPtoPDFconversion=\toks25
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 Package epstopdf Info: Source file: <ellips.eps>
-(epstopdf)                    date: 2015-05-18 18:27:29
-(epstopdf)                    size: 18937 bytes
+(epstopdf)                    date: 2015-05-16 00:12:06
+(epstopdf)                    size: 19708 bytes
 (epstopdf)             Output file: <ellips-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 18:27:29
+(epstopdf)                    date: 2015-05-16 00:12:35
 (epstopdf)                    size: 6898 bytes
-(epstopdf)             Command: <repstopdf --outfile=ellips-eps-converted-to.pd
-f ellips.eps>
+(epstopdf)             Command: <epstopdf --outfile=ellips-eps-converted-to.pdf
+ ellips.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
-<ellips-eps-converted-to.pdf, id=9, 421.575pt x 317.185pt>
+<ellips-eps-converted-to.pdf, id=8, 421.575pt x 317.185pt>
 File: ellips-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ellips-eps-converted-to.pdf>
 Package pdftex.def Info: ellips-eps-converted-to.pdf used on input line 59.
 (pdftex.def)             Requested size: 345.0pt x 259.5755pt.
- [2 <./ellips-eps-converted-to.pdf>]
+ [2 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/ellips-eps-convert
+ed-to.pdf>]
 Package epstopdf Info: Source file: <cirkel.eps>
-(epstopdf)                    date: 2015-05-18 18:27:29
-(epstopdf)                    size: 14812 bytes
+(epstopdf)                    date: 2015-05-16 00:18:12
+(epstopdf)                    size: 15404 bytes
 (epstopdf)             Output file: <cirkel-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 18:27:29
+(epstopdf)                    date: 2015-05-16 00:22:24
 (epstopdf)                    size: 5577 bytes
-(epstopdf)             Command: <repstopdf --outfile=cirkel-eps-converted-to.pd
-f cirkel.eps>
+(epstopdf)             Command: <epstopdf --outfile=cirkel-eps-converted-to.pdf
+ cirkel.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<cirkel-eps-converted-to.pdf, id=23, 421.575pt x 317.185pt>
+<cirkel-eps-converted-to.pdf, id=22, 421.575pt x 317.185pt>
 File: cirkel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cirkel-eps-converted-to.pdf>
@@ -347,24 +353,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
- [4 <./cirkel-eps-converted-to.pdf>] [5]
+ [4 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/cirkel-eps-convert
+ed-to.pdf>]
+[5]
 Package epstopdf Info: Source file: <opgave2_N4.eps>
-(epstopdf)                    date: 2015-05-18 19:40:16
-(epstopdf)                    size: 37670 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 39985 bytes
 (epstopdf)             Output file: <opgave2_N4-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:34
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 12918 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave2_N4-eps-converted-t
-o.pdf opgave2_N4.eps>
+(epstopdf)             Command: <epstopdf --outfile=opgave2_N4-eps-converted-to
+.pdf opgave2_N4.eps>
 (epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
-
-<opgave2_N4-eps-converted-to.pdf, id=36, 421.575pt x 316.18124pt>
+ <opgave2_N4-eps-converted-to.pdf, id=35, 421.575pt x 316.18124pt>
 File: opgave2_N4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave2_N4-eps-converted-to.pdf>
@@ -372,74 +379,74 @@ Package pdftex.def Info: opgave2_N4-eps-converted-to.pdf used on input line 176
 .
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 Package epstopdf Info: Source file: <opgave2_N5.eps>
-(epstopdf)                    date: 2015-05-18 19:41:18
-(epstopdf)                    size: 37548 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 39863 bytes
 (epstopdf)             Output file: <opgave2_N5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:34
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 12940 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave2_N5-eps-converted-t
-o.pdf opgave2_N5.eps>
+(epstopdf)             Command: <epstopdf --outfile=opgave2_N5-eps-converted-to
+.pdf opgave2_N5.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 
-<opgave2_N5-eps-converted-to.pdf, id=37, 421.575pt x 316.18124pt>
+<opgave2_N5-eps-converted-to.pdf, id=36, 421.575pt x 316.18124pt>
 File: opgave2_N5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave2_N5-eps-converted-to.pdf>
 Package pdftex.def Info: opgave2_N5-eps-converted-to.pdf used on input line 183
 .
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+ [6 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgave2_N4-eps-con
+verted-to.pdf> <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgave2
+_N5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <opgave2b_N10.eps>
-(epstopdf)                    date: 2015-05-18 19:40:05
-(epstopdf)                    size: 38824 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 41282 bytes
 (epstopdf)             Output file: <opgave2b_N10-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:35
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 13344 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave2b_N10-eps-converted
--to.pdf opgave2b_N10.eps>
-(epstopdf)             \includegraphics on input line 197.
+(epstopdf)             Command: <epstopdf --outfile=opgave2b_N10-eps-converted-
+to.pdf opgave2b_N10.eps>
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
-<opgave2b_N10-eps-converted-to.pdf, id=38, 421.575pt x 316.18124pt>
+<opgave2b_N10-eps-converted-to.pdf, id=51, 421.575pt x 316.18124pt>
 File: opgave2b_N10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave2b_N10-eps-converted-to.pdf>
 Package pdftex.def Info: opgave2b_N10-eps-converted-to.pdf used on input line 1
-97.
+98.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 Package epstopdf Info: Source file: <opgave2b_N15.eps>
-(epstopdf)                    date: 2015-05-18 19:41:09
-(epstopdf)                    size: 40059 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 42591 bytes
 (epstopdf)             Output file: <opgave2b_N15-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:35
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 13444 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave2b_N15-eps-converted
--to.pdf opgave2b_N15.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             Command: <epstopdf --outfile=opgave2b_N15-eps-converted-
+to.pdf opgave2b_N15.eps>
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
-<opgave2b_N15-eps-converted-to.pdf, id=39, 421.575pt x 316.18124pt>
+<opgave2b_N15-eps-converted-to.pdf, id=52, 421.575pt x 316.18124pt>
 File: opgave2b_N15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave2b_N15-eps-converted-to.pdf>
 Package pdftex.def Info: opgave2b_N15-eps-converted-to.pdf used on input line 2
-04.
+05.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package epstopdf Info: Source file: <opgave3_N10.eps>
-(epstopdf)                    date: 2015-05-18 19:39:54
-(epstopdf)                    size: 50114 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 53169 bytes
 (epstopdf)             Output file: <opgave3_N10-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:36
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 18791 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave3_N10-eps-converted-
-to.pdf opgave3_N10.eps>
+(epstopdf)             Command: <epstopdf --outfile=opgave3_N10-eps-converted-t
+o.pdf opgave3_N10.eps>
 (epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
-<opgave3_N10-eps-converted-to.pdf, id=40, 421.575pt x 316.18124pt>
+
+<opgave3_N10-eps-converted-to.pdf, id=53, 421.575pt x 316.18124pt>
 File: opgave3_N10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave3_N10-eps-converted-to.pdf>
@@ -447,169 +454,165 @@ Package pdftex.def Info: opgave3_N10-eps-converted-to.pdf used on input line 21
 9.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 Package epstopdf Info: Source file: <opgave3_N10_error.eps>
-(epstopdf)                    date: 2015-05-18 19:39:39
-(epstopdf)                    size: 37701 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 40108 bytes
 (epstopdf)             Output file: <opgave3_N10_error-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:36
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 13851 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave3_N10_error-eps-conv
-erted-to.pdf opgave3_N10_error.eps>
+(epstopdf)             Command: <epstopdf --outfile=opgave3_N10_error-eps-conve
+rted-to.pdf opgave3_N10_error.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 
-<opgave3_N10_error-eps-converted-to.pdf, id=41, 421.575pt x 316.18124pt>
+<opgave3_N10_error-eps-converted-to.pdf, id=54, 421.575pt x 316.18124pt>
 File: opgave3_N10_error-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave3_N10_error-eps-converted-to.pdf>
 Package pdftex.def Info: opgave3_N10_error-eps-converted-to.pdf used on input l
 ine 226.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
- [6 <./opgave2_N4-eps-converted-to.pdf> <./opgave2_N5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <opgave3_N20.eps>
-(epstopdf)                    date: 2015-05-18 19:40:59
-(epstopdf)                    size: 50802 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 53897 bytes
 (epstopdf)             Output file: <opgave3_N20-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:37
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 18497 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave3_N20-eps-converted-
-to.pdf opgave3_N20.eps>
-(epstopdf)             \includegraphics on input line 240.
+(epstopdf)             Command: <epstopdf --outfile=opgave3_N20-eps-converted-t
+o.pdf opgave3_N20.eps>
+(epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
-<opgave3_N20-eps-converted-to.pdf, id=56, 421.575pt x 316.18124pt>
+<opgave3_N20-eps-converted-to.pdf, id=55, 421.575pt x 316.18124pt>
 File: opgave3_N20-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave3_N20-eps-converted-to.pdf>
-Package pdftex.def Info: opgave3_N20-eps-converted-to.pdf used on input line 24
-0.
+Package pdftex.def Info: opgave3_N20-eps-converted-to.pdf used on input line 23
+9.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
 Package epstopdf Info: Source file: <opgave3_N20_error.eps>
-(epstopdf)                    date: 2015-05-18 19:40:47
-(epstopdf)                    size: 38476 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 40976 bytes
 (epstopdf)             Output file: <opgave3_N20_error-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 19:45:37
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 13637 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave3_N20_error-eps-conv
-erted-to.pdf opgave3_N20_error.eps>
-(epstopdf)             \includegraphics on input line 247.
+(epstopdf)             Command: <epstopdf --outfile=opgave3_N20_error-eps-conve
+rted-to.pdf opgave3_N20_error.eps>
+(epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
-<opgave3_N20_error-eps-converted-to.pdf, id=57, 421.575pt x 316.18124pt>
+<opgave3_N20_error-eps-converted-to.pdf, id=56, 421.575pt x 316.18124pt>
 File: opgave3_N20_error-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave3_N20_error-eps-converted-to.pdf>
 Package pdftex.def Info: opgave3_N20_error-eps-converted-to.pdf used on input l
-ine 247.
+ine 246.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
- [7 <./opgave2b_N10-eps-converted-to.pdf> <./opgave2b_N15-eps-converted-to.pdf>
- <./opgave3_N10-eps-converted-to.pdf> <./opgave3_N10_error-eps-converted-to.pdf
->]
-
-LaTeX Warning: Reference `opgave3_max_error' on page 8 undefined on input line 
-253.
-
+ [7 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgave2b_N10-eps-c
+onverted-to.pdf> <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgav
+e2b_N15-eps-converted-to.pdf> <C:/Users/User 67/Documents/GitHub/numerieke_taak
+2/latex/opgave3_N10-eps-converted-to.pdf> <C:/Users/User 67/Documents/GitHub/nu
+merieke_taak2/latex/opgave3_N10_error-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <opgave3_max_error.eps>
-(epstopdf)                    date: 2015-05-18 20:08:15
-(epstopdf)                    size: 18278 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 19420 bytes
 (epstopdf)             Output file: <opgave3_max_error-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 20:10:43
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 6835 bytes
-(epstopdf)             Command: <repstopdf --outfile=opgave3_max_error-eps-conv
-erted-to.pdf opgave3_max_error.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             Command: <epstopdf --outfile=opgave3_max_error-eps-conve
+rted-to.pdf opgave3_max_error.eps>
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
-<opgave3_max_error-eps-converted-to.pdf, id=82, 421.575pt x 316.18124pt>
+
+<opgave3_max_error-eps-converted-to.pdf, id=81, 421.575pt x 316.18124pt>
 File: opgave3_max_error-eps-converted-to.pdf Graphic file (type pdf)
 
 <use opgave3_max_error-eps-converted-to.pdf>
 Package pdftex.def Info: opgave3_max_error-eps-converted-to.pdf used on input l
-ine 257.
-(pdftex.def)             Requested size: 345.0pt x 258.75406pt.
- [8 <./opgave3_N20-eps-converted-to.pdf> <./opgave3_N20_error-eps-converted-to.
-pdf>]
+ine 256.
+(pdftex.def)             Requested size: 310.4979pt x 232.87527pt.
+ [8 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgave3_N20-eps-co
+nverted-to.pdf> <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgave
+3_N20_error-eps-converted-to.pdf>]
+[9 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/opgave3_max_error-e
+ps-converted-to.pdf>]
 Package epstopdf Info: Source file: <omega.eps>
-(epstopdf)                    date: 2015-05-18 20:16:46
-(epstopdf)                    size: 16907 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 17966 bytes
 (epstopdf)             Output file: <omega-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 20:19:00
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 5715 bytes
-(epstopdf)             Command: <repstopdf --outfile=omega-eps-converted-to.pdf
- omega.eps>
+(epstopdf)             Command: <epstopdf --outfile=omega-eps-converted-to.pdf 
+omega.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<omega-eps-converted-to.pdf, id=97, 429.605pt x 318.18875pt>
+<omega-eps-converted-to.pdf, id=103, 429.605pt x 318.18875pt>
 File: omega-eps-converted-to.pdf Graphic file (type pdf)
 
 <use omega-eps-converted-to.pdf>
 Package pdftex.def Info: omega-eps-converted-to.pdf used on input line 270.
 (pdftex.def)             Requested size: 172.5pt x 127.76361pt.
 Package epstopdf Info: Source file: <eps.eps>
-(epstopdf)                    date: 2015-05-18 20:17:17
-(epstopdf)                    size: 16909 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 17968 bytes
 (epstopdf)             Output file: <eps-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 20:19:00
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 5699 bytes
-(epstopdf)             Command: <repstopdf --outfile=eps-eps-converted-to.pdf e
-ps.eps>
+(epstopdf)             Command: <epstopdf --outfile=eps-eps-converted-to.pdf ep
+s.eps>
 (epstopdf)             \includegraphics on input line 277.
 Package epstopdf Info: Output file is already uptodate.
 
-<eps-eps-converted-to.pdf, id=98, 429.605pt x 318.18875pt>
+<eps-eps-converted-to.pdf, id=104, 429.605pt x 318.18875pt>
 File: eps-eps-converted-to.pdf Graphic file (type pdf)
 
 <use eps-eps-converted-to.pdf>
 Package pdftex.def Info: eps-eps-converted-to.pdf used on input line 277.
 (pdftex.def)             Requested size: 172.5pt x 127.76361pt.
- [9 <./opgave3_max_error-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <elsapoging3.eps>
-(epstopdf)                    date: 2015-05-18 20:40:38
-(epstopdf)                    size: 37881 bytes
+(epstopdf)                    date: 2015-05-22 22:33:43
+(epstopdf)                    size: 40240 bytes
 (epstopdf)             Output file: <elsapoging3-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-18 20:41:30
+(epstopdf)                    date: 2015-05-22 22:33:43
 (epstopdf)                    size: 13680 bytes
-(epstopdf)             Command: <repstopdf --outfile=elsapoging3-eps-converted-
-to.pdf elsapoging3.eps>
+(epstopdf)             Command: <epstopdf --outfile=elsapoging3-eps-converted-t
+o.pdf elsapoging3.eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<elsapoging3-eps-converted-to.pdf, id=107, 421.575pt x 316.18124pt>
+<elsapoging3-eps-converted-to.pdf, id=105, 421.575pt x 316.18124pt>
 File: elsapoging3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use elsapoging3-eps-converted-to.pdf>
 Package pdftex.def Info: elsapoging3-eps-converted-to.pdf used on input line 28
 6.
 (pdftex.def)             Requested size: 345.0pt x 258.75406pt.
- [10 <./omega-eps-converted-to.pdf> <./eps-eps-converted-to.pdf> <./elsapoging3
--eps-converted-to.pdf>]
-(./Main_Article_NMB_2.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [10 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/omega-eps-convert
+ed-to.pdf> <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/eps-eps-con
+verted-to.pdf>] [11 <C:/Users/User 67/Documents/GitHub/numerieke_taak2/latex/el
+sapoging3-eps-converted-to.pdf>]
+("C:\Users\User 67\Documents\GitHub\numerieke_taak2\latex\Main_Article_NMB_2.au
+x") ) 
 Here is how much of TeX's memory you used:
- 4227 strings out of 493848
- 58776 string characters out of 6154602
- 147800 words of memory out of 5000000
- 7441 multiletter control sequences out of 15000+600000
- 9862 words of font info for 36 fonts, out of 8000000 for 9000
- 788 hyphenation exceptions out of 8191
- 42i,9n,23p,368b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb>
-Output written on Main_Article_NMB_2.pdf (10 pages, 247163 bytes).
+ 4112 strings out of 493921
+ 57115 string characters out of 3147277
+ 140324 words of memory out of 3000000
+ 7343 multiletter control sequences out of 15000+200000
+ 9554 words of font info for 35 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,9n,24p,330b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Main_Article_NMB_2.pdf (11 pages, 260056 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
